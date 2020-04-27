@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+    margin: 0;
+    font-family: 'Yatra One', cursive;
+}
+
+/* ---------------------------------------------
+Pada Bagian Header
+--------------------------------------------- */
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display : none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left {
+    font-family: "Lucida Sans";
+    padding-top: 5px;
+}
+
+.header-left span {
+    color: orange;
+    font-size: 25px;
+}
+
+.header-left h1 {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.top-wrapper {
+    padding: 200px 0 100px 0;
+    background-image:url('Background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 55px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper h2 {
+    opacity: 0.9;
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.signup {
+    background-color: #29dae0;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(18, 50, 59, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(155, 36, 36, 0.3);
+}
+
+/* ---------------------------------------
+meet our Team (bagian tengah setelah header)
+--------------------------------------- */
+
+*{
+
+  box-sizing: border-box;
+}
+
+
+body{
+  background: linear-gradient(to bottom, #614385, #516395);
+}
+
+.wrapper{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  height: auto;
+  text-align: center;
+}
+
+.wrapper h1{
+  font-family: 'Yatra One', cursive;
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  background: #fff;
+  padding: 20px 10px;
+}
+
+.our_team .team_member .member_img{
+  background: #e9e5fa;
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.our_team .team_member h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 10px;
+}
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.our_team .team_member .member_img .social_media{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0,0,0,0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+   transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item{
+  margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab{
+  color: #8c7ae6;
+  font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media{
+  transform: scale(1);
+}
+
+img{
+    border-radius: 50%;
+}
+
+
+/* ------------------------------------------------
+Quote (bagian tengah di quote)
+------------------------------------------------ */
+.background-quote{
+
+}
+
+.sizing-quote{
+  margin: 60px 0px 60px 0px;
+  padding: 20px;
+  height: 600px;
+}
+
+.font-quote{
+  font-family: 'Yatra One', cursive;
+  font-size: 28px;
+  color: #fff;
+  text-align:center;
+  margin-top: 100px;
+}
+
+
+/* ----------------------------------------------------
+Bagian Form (Bagian setelah Quote)
+---------------------------------------------------- */
+
+.form-background{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color:#fff;
+}
+
+.form{
+  margin: 60px;
+  clear:both;
+}
+
+.center{
+  text-align: center;
+}
+
+.h1-form{
+  font-size: 36px;
+  font-weight: normal;
+  font-family: 'Yatra One', cursive;
+}
+
+.p-form{
+  font-size: 18px;
+}
+
+.form1{
+  /* width: 47.5%; */
+  width: 47.5%;
+  padding: 0 1.25%;
+  float:left;
+}
+
+.margin{
+  margin-bottom:20px;
+}
+
+.form1 span{
+  width: 100%;
+}
+
+.form1 input{
+  /* width:91.83333%; */
+  width: 97.5%;
+  padding: 2.5%;
+  border : 1px solid #1e1e1e;
+}
+
+.form2{
+  clear: both;
+  width: 98.75%;
+  padding: 80px;
+}
+
+textarea{
+  /* width: 93.83333%; */
+  padding: 1.25%;
+  width: 97.4%;
+  max-height:8em;
+  height:8em;
+  border : 1px solid #1e1e1e;
+}
+
+.btn{
+  cursor: pointer;
+  padding: 15px;
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  border-color: white;
+  border-radius: 5px;
+  min-width: 150px;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.btn:active {
+  background-color: red;
+}
+
+
+.animasi {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: white;
+  margin: 0 auto;
+}
+
+@keyframes example {
+  0%   {top:0px;}
+  25%  {top:100px;}
+  50%  {top:0px;}
+  75%  {top:100px;}
+  100% {top:0px;}
+}
+
+.animasi_logo{
+  width: 200px;
+  height: 200px;
+}
+
+.kiri{
+  float: left;
+}
+
+.kanan{
+  float: right;
+}
+
+
+
+/* ---------------------------------------------------
+------------------------Footer---------------------
+--------------------------------------------------- */
+
+/* editing buat footer  */
+
+footer {
+  background-color: #84817a;
+  color: #fff;
+  height: 150px;
+  padding: 40px;
+  font-size: 15px;
+  font-family:sans-serif ;
+}
+
+.footer-centered{
+  text-align: center;
+}
